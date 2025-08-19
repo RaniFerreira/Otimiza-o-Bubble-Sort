@@ -28,6 +28,13 @@ Se não houve troca, significa que o vetor já está ordenado → o algoritmo po
 
 -Caso contrário → continua para a próxima passada.
 
+## Adição da variável total_iteracoes no Bubble Sort otimizado
+A variável *total_iteracoes* serve para contar quantas vezes o algoritmo fez comparações entre elementos da lista.
+Cada vez que o loop interno verifica if lista[j] > lista[j + 1] é uma iteração.
+Contar as iterações ajuda a analisar o desempenho do algoritmo:
+Quanto mais iterações, mais trabalho o algoritmo fez.
+No Bubble Sort otimizado, se a lista estiver quase ordenada, o número de iterações será menor do que no Bubble Sort simples, porque ele interrompe a execução cedo.
+
 ![Descrição da imagem](img/s.png)
 
 ---
@@ -36,19 +43,25 @@ Se não houve troca, significa que o vetor já está ordenado → o algoritmo po
 
 ### Teste 1:
 * Tempo de execução (Bubble Sort Simples) : 0.0002 segundos
-* Tempo de execução (Bubble Sort Otimizado) : 0.0001 segundos
+* Total de iterações: 45
+* Tempo de execução (Bubble Sort Otimizado) : 0.0002 segundos
+* Total de iterações: 42
   
   ![Descrição da imagem](img/teste1.png)
 
 ### Teste 2:
-* Tempo de execução (Bubble Sort Simples) : 0.0002 segundos
-* Tempo de execução (Bubble Sort Otimizado) : 0.0001 segundos
+* Tempo de execução (Bubble Sort Simples) : 0.0003 segundos
+* Total de iterações: 55
+* Tempo de execução (Bubble Sort Otimizado) : 0.0002 segundos
+* Total de iterações: 34
   
   ![Descrição da imagem](img/teste2.png)
 
 ### Teste 3:
-* Tempo de execução (Bubble Sort Simples) : 0.0003 segundos
-* Tempo de execução (Bubble Sort Otimizado) : 0.0002 segundos
+* Tempo de execução (Bubble Sort Simples) : 0.0005 segundos
+* Total de iterações: 120
+* Tempo de execução (Bubble Sort Otimizado) : 0.0003 segundos
+* Total de iterações: 114
   
   ![Descrição da imagem](img/teste3.png)
   
