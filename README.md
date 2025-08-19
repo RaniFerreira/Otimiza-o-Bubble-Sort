@@ -28,6 +28,8 @@ Se não houve troca, significa que o vetor já está ordenado → o algoritmo po
 
 -Caso contrário → continua para a próxima passada.
 
+![Descrição da imagem](img/swapped.png)
+
 ---
 
 ## 🚀 Testes 
@@ -48,5 +50,5 @@ Se não houve troca, significa que o vetor já está ordenado → o algoritmo po
 * Tempo de execução (Bubble Sort Simples) : 0.0003 segundos
 * Tempo de execução (Bubble Sort Otimizado) : 0.0002 segundos
   
-  
   ![Descrição da imagem](img/teste3.png)
+ 
