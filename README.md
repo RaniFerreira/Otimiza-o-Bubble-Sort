@@ -28,7 +28,7 @@ Se não houve troca, significa que o vetor já está ordenado → o algoritmo po
 
 -Caso contrário → continua para a próxima passada.
 
-![Descrição da imagem](img/swapped.png)
+![Descrição da imagem](img/s.png)
 
 ---
 
