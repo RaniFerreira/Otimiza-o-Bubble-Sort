@@ -26,7 +26,7 @@ if __name__ == "__main__":
     print(f"Tempo de execução: {fim - inicio:.4f} segundos")
     
     #segundo teste**********************************************************
-    segundoTeste = [25, 17, 31, 13, 2, 29, 8, 19, 7, 11, 6]
+    segundoTeste = [1, 2, 3, 6, 2, 8, 9, 7, 11, 19]
     print("\nBubble Sort Simples Teste 2")
     print(segundoTeste)
     inicio = time.time()
@@ -35,7 +35,7 @@ if __name__ == "__main__":
     
     print(f"Tempo de execução: {fim - inicio:.4f} segundos")
     
-    segundoTeste = [25, 17, 31, 13, 2, 29, 8, 19, 7, 11, 6]
+    segundoTeste = [1, 2, 3, 6, 2, 8, 9, 7, 11, 19]
     print("\nBubble Sort otimizado teste 2")
     print(segundoTeste)
     inicio = time.time()
@@ -45,7 +45,7 @@ if __name__ == "__main__":
     print(f"Tempo de execução: {fim - inicio:.4f} segundos")
     
     #terceiro teste************************************************
-    terceiroTeste = [102, 57, 33, 88, 74, 91, 45, 60, 12, 80, 23, 39, 5, 67, 49, 1, 14, 72, 95, 81]
+    terceiroTeste = [ 74, 91, 45, 60, 12, 80, 23, 39, 5, 67, 49, 1, 14, 72, 95, 81]
     print("\nBubble Sort Simples Teste 3")
     print(terceiroTeste)
     inicio = time.time()
@@ -54,7 +54,7 @@ if __name__ == "__main__":
    
     print(f"Tempo de execução: {fim - inicio:.4f} segundos")
     
-    terceiroTeste = [102, 57, 33, 88, 74, 91, 45, 60, 12, 80, 23, 39, 5, 67, 49, 1, 14, 72, 95, 81]
+    terceiroTeste = [74, 91, 45, 60, 12, 80, 23, 39, 5, 67, 49, 1, 14, 72, 95, 81]
     print("\nBubble Sort otimizado teste 3")
     print(terceiroTeste)
     inicio = time.time()
